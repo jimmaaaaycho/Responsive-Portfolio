@@ -7,12 +7,13 @@ body {
 	margin: 0 auto;
 	background-image: url(http://imgur.com/VyvDFGD.png);
 	position: relative;
+	height: 100%;
+	padding-bottom: 100px;
 }
 
 
 .mainsection {
 	width: 650px;
-	height: 700px;
 	background-color: #ffffff;
 	display: inline-block;
 	margin-top: 50px;
@@ -171,5 +172,50 @@ input {
 	border-radius: 25px;
 }
 
+@media screen and (max-width: 980px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.sociallink {
+		width: 28%;
+	}
+
+	.mainsection {
+		width: 68%;
+		overflow: auto;
+	}
+
+	#logo {
+		width: 30%;
+		height: 30%;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	.sociallink {
+		width: 100%;
+		padding: 10px;
+		display: block;
+		padding-bottom: 100px;
+		margin: auto;
+	}
+
+	.mainsection {
+		width: 100%;	
+	}
+
+	#logo {
+		width: 30%;
+		height: 30%;
+	}
+}
 
 
